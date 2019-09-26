@@ -1,13 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,700&display=swap");
 $appleFont: "Lato", sans-serif;
+
+$black: rgba(0, 0, 0, 0.753);
+$grey900: #2e2e2e;
+$grey800: rgb(66, 66, 66);
+$grey800t: rgba(66, 66, 66, 0.651); 
+$grey700: rgb(75, 75, 75);
+$grey700t: rgba(75, 75, 75, 0.6);
+$grey600: rgb(109, 109, 109);
+$grey500:  rgb(121, 121, 121);
+$grey400: rgb(128, 128, 128) ;
+$grey300: rgb(134, 134, 134);
+$grey100t: rgba(204, 204, 204, 0.6);
+$navHover: rgba(0, 0, 0, 0.4);
+$linkColor: #28759c;
+
+$inputBorder: 1px solid $grey900;
+
 $navGradient: linear-gradient(
   to bottom,
-  rgb(134, 134, 134) 5%,
-  rgb(128, 128, 128) 50%,
-  rgb(107, 107, 107) 51%,
-  rgb(99, 99, 99) 8%,
-  rgb(121, 121, 121) 94%
+  $grey300 5%,
+  $grey400 50%,
+  $grey600 51%,
+  $grey700 8%,
+  $grey500 94%
 );
-$navHover: rgba(0, 0, 0, 0.4);
-$inputBorder: 1px solid #2e2e2e;
-$linkColor: #28759c;
+$textShadow: 0px 0px 1px $black, 1px 1px 1px $grey800;
+$inputShadow: inset 0px 1px 1px $grey700t, inset 0 -1px 1px $grey100t;
+
+$heroImg: url("../img/hero.png");
+$searchImg: url("../img/search.png");
+$searchBlackImg: url("../img/search-black.png");

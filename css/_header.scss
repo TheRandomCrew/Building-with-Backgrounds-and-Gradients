@@ -2,7 +2,7 @@ header {
   height: 550px;
   max-width: 1440px;
   margin: 0 auto;
-  background-image: url("../img/hero.png");
+  background-image: $heroImg;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +48,7 @@ header {
   height: 38px;
   border-radius: 3px;
   background: $navGradient;
-  border: 1px solid rgb(109, 109, 109);
+  border: 1px solid $grey600;
   margin: 0 auto;
 }
 
@@ -63,8 +63,8 @@ header {
     font-weight: 700;
     font-size: 12rem;
     color: white;
-    border-left: 1px solid rgba(75, 75, 75, 0.6);
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.753), 1px 1px 1px rgba(66, 66, 66, 0.651);
+    border-left: 1px solid $grey700t;
+    text-shadow: $textShadow;
 
     &:hover {
       background: $navHover;
@@ -87,10 +87,10 @@ header {
     & > input {
       border-radius: 20px;
       border-top: $inputBorder;
-      box-shadow: inset 0px 1px 1px rgba(70, 70, 70, 0.8), inset 0 -1px 1px rgba(204, 204, 204, 0.6);
+      box-shadow: $inputShadow;
       width: 110px;
       height: 24px;
-      background: url("../img/search.png");
+      background: $searchImg;
       background-size: 13px;
       background-position: 8px 4px;
       background-repeat: no-repeat;
@@ -99,14 +99,14 @@ header {
 
       &:focus {
         width: 175px;
-        background-image: url("../img/search-black.png");
+        background-image: $searchBlackImg;
         background-color: white;
         background-size: 13px;
         background-position: 8px 4px;
         background-repeat: no-repeat;
         outline: none;
         border: $inputBorder;
-        color: #2e2e2e;
+        color: $grey900;
       }
     }
     &:hover {
