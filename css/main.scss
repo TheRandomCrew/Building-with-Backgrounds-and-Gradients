@@ -1,0 +1,14 @@
+@import "global";
+@import "reset";
+@import "header";
+
+main{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &>a>img{
+        width: 360px;
+        cursor: pointer;
+    }
+}
