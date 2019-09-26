@@ -59,7 +59,6 @@ header {
 
   & > li {
     width: 100%;
-    cursor: pointer;
     padding: 10px 25px;
     font-weight: 700;
     font-size: 12rem;
@@ -102,8 +101,8 @@ header {
         width: 175px;
         background-image: url("../img/search-black.png");
         background-color: white;
-        background-size: 10px;
-        background-position: 5px 4px;
+        background-size: 13px;
+        background-position: 8px 4px;
         background-repeat: no-repeat;
         outline: none;
         border: $inputBorder;
@@ -113,6 +112,10 @@ header {
     &:hover {
       background: transparent;
     }
+  }
+
+  & a{
+    cursor: pointer;
   }
 }
 

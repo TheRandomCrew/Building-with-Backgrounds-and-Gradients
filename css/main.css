@@ -351,7 +351,6 @@ header {
 
 .navMenu > li {
   width: 100%;
-  cursor: pointer;
   padding: 10px 25px;
   font-weight: 700;
   font-size: 12rem;
@@ -398,8 +397,8 @@ header {
   width: 175px;
   background-image: url("../img/search-black.png");
   background-color: white;
-  background-size: 10px;
-  background-position: 5px 4px;
+  background-size: 13px;
+  background-position: 8px 4px;
   background-repeat: no-repeat;
   outline: none;
   border: 1px solid #2e2e2e;
@@ -408,6 +407,10 @@ header {
 
 .navMenu > li:last-child:hover {
   background: transparent;
+}
+
+.navMenu a {
+  cursor: pointer;
 }
 
 .logo {
@@ -424,8 +427,45 @@ main {
   margin: 0 auto;
 }
 
+main > a {
+  cursor: pointer;
+}
+
 main > a > img {
   width: 360px;
-  cursor: pointer;
+}
+
+footer {
+  margin: 0 auto;
+  width: 980px;
+  padding: 20px 0px 2.6em 0px;
+}
+
+.footerSections {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 10rem;
+  width: 480px;
+  letter-spacing: 0.1rem;
+  color: #6d6d6d;
+}
+
+.footerSections a {
+  color: #28759c;
+}
+
+.footerSections a:hover {
+  text-decoration: underline;
+}
+
+.footerNav {
+  width: 480px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=main.css.map */
