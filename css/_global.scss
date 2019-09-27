@@ -4,12 +4,12 @@ $appleFont: "Lato", sans-serif;
 $black: rgba(0, 0, 0, 0.753);
 $grey900: #2e2e2e;
 $grey800: rgb(66, 66, 66);
-$grey800t: rgba(66, 66, 66, 0.651); 
+$grey800t: rgba(66, 66, 66, 0.651);
 $grey700: rgb(75, 75, 75);
 $grey700t: rgba(75, 75, 75, 0.6);
 $grey600: rgb(109, 109, 109);
 $grey500:  rgb(121, 121, 121);
-$grey400: rgb(128, 128, 128) ;
+$grey400: rgb(128, 128, 128);
 $grey300: rgb(134, 134, 134);
 $grey100t: rgba(204, 204, 204, 0.6);
 $navHover: rgba(0, 0, 0, 0.4);
@@ -25,8 +25,8 @@ $navGradient: linear-gradient(
   $grey700 8%,
   $grey500 94%
 );
-$textShadow: 0px 0px 1px $black, 1px 1px 1px $grey800;
-$inputShadow: inset 0px 1px 1px $grey700t, inset 0 -1px 1px $grey100t;
+$textShadow: 0.1px 0.1px 1px $black, 1px 1px 1px $grey800;
+$inputShadow: inset 0.1px 1px 1px $grey700t, inset 0 -1px 1px $grey100t;
 
 $heroImg: url("../img/hero.png");
 $searchImg: url("../img/search.png");

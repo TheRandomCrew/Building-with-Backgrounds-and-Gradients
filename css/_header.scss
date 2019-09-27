@@ -15,7 +15,7 @@ header {
   font-family: $appleFont;
   text-align: center;
   color: white;
-  margin: 50px 0px;
+  margin: 50px 0;
 
   & > h1 {
     padding-top: 30px;
@@ -81,7 +81,7 @@ header {
   }
 
   & > li:first-child {
-    padding: 0px 25px;
+    padding: 0 25px;
     border-left: none;
 
     &:hover {
@@ -102,7 +102,7 @@ header {
   }
 
   & > li:last-child {
-    padding: 3px 5px 0px 5px;
+    padding: 3px 5px 0 5px;
     display: inline-block;
 
     & > input {
@@ -116,7 +116,7 @@ header {
       background-position: 8px 4px;
       background-repeat: no-repeat;
       transition: all 0.3s ease-in-out;
-      padding: 0px 0px 0px 25px;
+      padding: 0 0 0 25px;
 
       &:focus {
         width: 175px;
@@ -153,6 +153,7 @@ header {
     justify-content: center;
   }
 }
+
 .logo {
   margin: 3px;
   height: 23px;
