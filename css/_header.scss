@@ -74,12 +74,30 @@ header {
     }
   }
 
+  @media only screen and (max-width: 980px) {
+    & > li {
+      display: none;
+    }
+  }
+
   & > li:first-child {
     padding: 0px 25px;
     border-left: none;
 
     &:hover {
       background: $navHover;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+    &:hover {
+      background: $navHover;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+    & > li:first-child {
+      display: inline;
     }
   }
 
@@ -112,9 +130,16 @@ header {
         color: $grey900;
       }
     }
-    &:hover {
-      background: transparent;
+  }
+
+  @media only screen and (max-width: 980px) {
+    & > li:last-child {
+      display: inline;
     }
+  }
+
+  &:hover {
+    background: transparent;
   }
 
   & a {
@@ -126,26 +151,8 @@ header {
   .navMenu {
     flex-wrap: nowrap;
     justify-content: center;
-    
-    & > li {
-      display: none;
-    }
-
-    & > li:first-child {
-      display: inline;
-  
-      &:hover {
-        background: $navHover;
-      }
-    }
-  
-    & > li:last-child {
-      display: inline;
-    }
   }
-
 }
-
 .logo {
   margin: 3px;
   height: 23px;

@@ -13,16 +13,14 @@ main {
     cursor: pointer;
 
     & > img {
-      display: inline-block;
-      width: 360px;
       transition: all 2s;
     }
     
-    @media only screen and (max-width: 1440px) {
-      &> img { 
-        display: inline-block;
-        width: 25vw;
-      }
+    
+  }
+  @media only screen and (max-width: 1440px) {
+    &> a { 
+      width: 25%;
     }
   }
 }
