@@ -276,13 +276,17 @@ progress {
 }
 
 header {
-  height: 550px;
   max-width: 1440px;
   margin: 0 auto;
   background-image: url("../img/hero.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -295,7 +299,7 @@ header {
   font-family: "Lato", sans-serif;
   text-align: center;
   color: white;
-  margin-bottom: 50px;
+  margin: 50px 0px;
 }
 
 .hero > h1 {
@@ -413,6 +417,28 @@ header {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 980px) {
+  .navMenu {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navMenu > li {
+    display: none;
+  }
+  .navMenu > li:first-child {
+    display: inline;
+  }
+  .navMenu > li:first-child:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .navMenu > li:last-child {
+    display: inline;
+  }
+}
+
 .logo {
   margin: 3px;
   height: 23px;
@@ -424,7 +450,12 @@ main {
   display: -ms-flexbox;
   display: flex;
   max-width: 1440px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main > a {
@@ -432,7 +463,17 @@ main > a {
 }
 
 main > a > img {
+  display: inline-block;
   width: 360px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+@media only screen and (max-width: 1440px) {
+  main > a > img {
+    display: inline-block;
+    width: 25vw;
+  }
 }
 
 footer {

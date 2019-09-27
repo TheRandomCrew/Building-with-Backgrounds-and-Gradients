@@ -1,9 +1,12 @@
 header {
-  height: 550px;
   max-width: 1440px;
   margin: 0 auto;
   background-image: $heroImg;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -12,7 +15,7 @@ header {
   font-family: $appleFont;
   text-align: center;
   color: white;
-  margin-bottom: 50px;
+  margin: 50px 0px;
 
   & > h1 {
     padding-top: 30px;
@@ -21,7 +24,7 @@ header {
     letter-spacing: 1px;
     transform: scale(0.91, 1);
   }
-  
+
   & > h2 {
     font-weight: 300;
     font-size: 30rem;
@@ -114,9 +117,33 @@ header {
     }
   }
 
-  & a{
+  & a {
     cursor: pointer;
   }
+}
+
+@media only screen and (max-width: 980px) {
+  .navMenu {
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    & > li {
+      display: none;
+    }
+
+    & > li:first-child {
+      display: inline;
+  
+      &:hover {
+        background: $navHover;
+      }
+    }
+  
+    & > li:last-child {
+      display: inline;
+    }
+  }
+
 }
 
 .logo {
