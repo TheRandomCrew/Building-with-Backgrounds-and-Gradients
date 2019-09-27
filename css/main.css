@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -299,7 +300,7 @@ header {
   font-family: "Lato", sans-serif;
   text-align: center;
   color: white;
-  margin: 50px 0px;
+  margin: 50px 0;
 }
 
 .hero > h1 {
@@ -335,16 +336,17 @@ header {
   width: 980px;
   height: 38px;
   border-radius: 3px;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(5%, #868686),
-    color-stop(50%, gray),
-    color-stop(51%, #6d6d6d),
-    color-stop(8%, #4b4b4b),
-    color-stop(94%, #797979)
-  );
+  background:
+    -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(5%, #868686),
+      color-stop(50%, gray),
+      color-stop(51%, #6d6d6d),
+      color-stop(8%, #4b4b4b),
+      color-stop(94%, #797979)
+    );
   background: linear-gradient(to bottom, #868686 5%, gray 50%, #6d6d6d 51%, #4b4b4b 8%, #797979 94%);
   border: 1px solid #6d6d6d;
   margin: 0 auto;
@@ -369,7 +371,7 @@ header {
   font-size: 12rem;
   color: white;
   border-left: 1px solid rgba(75, 75, 75, 0.6);
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.753), 1px 1px 1px #424242;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.753), 1px 1px 1px #424242;
 }
 
 .navMenu > li:hover {
@@ -377,7 +379,7 @@ header {
 }
 
 .navMenu > li:first-child {
-  padding: 0px 25px;
+  padding: 0 25px;
   border-left: none;
 }
 
@@ -386,15 +388,15 @@ header {
 }
 
 .navMenu > li:last-child {
-  padding: 3px 5px 0px 5px;
+  padding: 3px 5px 0 5px;
   display: inline-block;
 }
 
 .navMenu > li:last-child > input {
   border-radius: 20px;
   border-top: 1px solid #2e2e2e;
-  -webkit-box-shadow: inset 0px 1px 1px rgba(75, 75, 75, 0.6), inset 0 -1px 1px rgba(204, 204, 204, 0.6);
-  box-shadow: inset 0px 1px 1px rgba(75, 75, 75, 0.6), inset 0 -1px 1px rgba(204, 204, 204, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(75, 75, 75, 0.6), inset 0 -1px 1px rgba(204, 204, 204, 0.6);
+  box-shadow: inset 0 1px 1px rgba(75, 75, 75, 0.6), inset 0 -1px 1px rgba(204, 204, 204, 0.6);
   width: 110px;
   height: 24px;
   background: url("../img/search.png");
@@ -403,7 +405,7 @@ header {
   background-repeat: no-repeat;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  padding: 0px 0px 0px 25px;
+  padding: 0 0 0 25px;
 }
 
 .navMenu > li:last-child > input:focus {
@@ -434,15 +436,19 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .navMenu > li {
     display: none;
   }
+
   .navMenu > li:first-child {
     display: inline;
   }
+
   .navMenu > li:first-child:hover {
     background: rgba(0, 0, 0, 0.4);
   }
+
   .navMenu > li:last-child {
     display: inline;
   }
@@ -488,7 +494,7 @@ main > a > img {
 footer {
   margin: 0 auto;
   width: 980px;
-  padding: 20px 0px 2.6em 0px;
+  padding: 20px 0 2.6em 0;
 }
 
 .footerSections {
@@ -518,4 +524,3 @@ footer {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
-/*# sourceMappingURL=main.css.map */
