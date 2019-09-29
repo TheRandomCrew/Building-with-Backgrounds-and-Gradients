@@ -1,0 +1,55 @@
+@import "global";
+@import "reset";
+@import "header";
+
+main {
+  display: flex;
+  max-width: 1440px;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  justify-content: center;
+
+  & > a {
+    cursor: pointer;
+
+    & > img {
+      transition: all 2s;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    & > a {
+      width: 25%;
+    }
+  }
+}
+
+footer {
+  margin: 0 auto;
+  width: 980px;
+  padding: 20px 0 2.6em 0;
+}
+
+.footerSections {
+  display: inline-block;
+  font-family: $appleFont;
+  font-size: 10rem;
+  width: 480px;
+  letter-spacing: 0.1rem;
+  color: $grey600;
+
+  & a {
+    color: $linkColor;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footerNav {
+  width: 480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
