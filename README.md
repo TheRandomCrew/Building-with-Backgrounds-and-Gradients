@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Israel-Laguan/Building-with-Backgrounds-and-Gradients">
-	  <img src="https://user-images.githubusercontent.com/67714964/168576185-3d9c419a-d201-4b26-90ad-943783b2cb4d.jpg" alt="Logo"/>
+	  <img src="https://user-images.githubusercontent.com/67714964/168576185-3d9c419a-d201-4b26-90ad-943783b2cb4d.jpg" width="480" height="380" alt="Logo"/>
   </a>
 
   <h1 align="center">
