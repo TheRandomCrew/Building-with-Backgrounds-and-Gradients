@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues-open][issues-open-shield]][issues-url]
@@ -10,8 +11,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://">
-	  <img src="https://img.icons8.com/color/96/000000/full-image.png" alt="Logo"/>
+  <a href="https://github.com/Israel-Laguan/Building-with-Backgrounds-and-Gradients">
+	  <img src="https://user-images.githubusercontent.com/67714964/168576185-3d9c419a-d201-4b26-90ad-943783b2cb4d.jpg" width="480" height="380" alt="Logo"/>
   </a>
 
   <h1 align="center">
@@ -32,17 +33,17 @@
 
 ## Table of Contents
 
-1. [Building-with-Backgrounds-and-Gradients](#building-with-backgrounds-and-gradients)
-2. [Author](#author)
-3. [Contributing](#contributing)
-4. [Show your support](#show-your-support)
-5. [License](#license)
+- [Building-with-Backgrounds-and-Gradients](#building-with-backgrounds-and-gradients)
+- [Author](#author)
+- [Contributing](#contributing)
+- [Show your support](#show-your-support)
+- [License](#license)
 
 # Building-with-Backgrounds-and-Gradients
 
 This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the [Apple website webpage](https://web.archive.org/web/20140301004610/http://www.apple.com/).
 
-*Project number 4 of the HTML course on Microverse.*
+_Project number 4 of the HTML course on Microverse._
 
 I've used Flex, Sass and gradients for this project.
 
@@ -53,7 +54,7 @@ I've used Flex, Sass and gradients for this project.
     <li>Images on the [Web Archive](https://web.archive.org/)</li>
   </ul>
   <p> Each asset belog to each author(s).</p>
-</details> 
+</details>
 
 # Author
 
@@ -99,7 +100,7 @@ I've used Flex, Sass and gradients for this project.
         </div>
     </td>
   </tr>
-</table> 
+</table>
 
 # Contributing
 
@@ -124,6 +125,7 @@ Icons from:
 Feel free to fork this project and improve it
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/Building-with-Backgrounds-and-Gradients?style=for-the-badge
 [contributors-url]: https://github.com/Israel-Laguan/Building-with-Backgrounds-and-Gradients/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/Building-with-Backgrounds-and-Gradients?style=for-the-badge
